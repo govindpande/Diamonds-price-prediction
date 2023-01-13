@@ -1,5 +1,3 @@
-import matplotlib.pyplot as plt
-import numpy as np
 from sklearn import datasets, ensemble
 from sklearn.inspection import permutation_importance
 from sklearn.metrics import mean_squared_error
