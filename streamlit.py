@@ -1,5 +1,4 @@
-import sklearn
-
+from xgboost.sklearn import XGBClassifier
 
 import xgboost as xgb
 import streamlit as st
