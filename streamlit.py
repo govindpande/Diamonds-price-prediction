@@ -1,3 +1,4 @@
+pip uninstall xgboost
 from xgboost.sklearn import XGBClassifier
 
 import xgboost as xgb
