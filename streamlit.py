@@ -1,5 +1,5 @@
 import sklearn
-!pip3 install xgboost
+
 
 import xgboost as xgb
 import streamlit as st
