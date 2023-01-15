@@ -67,7 +67,11 @@ def predict(carat, cut, color, clarity, depth, table, x, y, z):
 
 st.title('Diamond Price Predictor')
 #st.image("""https://img1.picmix.com/output/stamp/normal/0/4/3/8/1568340_36175.gif""")
+st.markdown("I was looking ta dimonds to buy online and I went on Google and searched up its prices, but I didn’t know what metrics drove those prices. Therefore, I decided to apply some machine learning techniques to figure out what drives the price of a flawless diamond ring!")
+
 st.image("""https://giffiles.alphacoders.com/143/14379.gif""")
+st.markdown("Carat Weight: 0.2Kg - 5.01Kg\nCut: Fair, Good, Very Good, Premium, Ideal\nColor: from J (Worst) to D (Best)\nClarity: I1 (Worst), SI2, SI1, VS2, VS1, VVS2, VVS1, IF (Best)\nPolish: ID (Ideal), EX (Excellent), G (Good), VG (Very Good)\nSymmetry: ID (Ideal), EX (Excellent), G (Good), VG (Very Good)\nReport: AGSL (American Gem Society Laboratories), GIA (Gemological Institute of America)")
+
 with st.sidebar:
     st.header('Enter the characteristics of the diamond:')
     carat = st.number_input('Carat Weight:', min_value=0.1, max_value=10.0, value=1.0)
