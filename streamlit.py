@@ -70,7 +70,7 @@ st.title('Diamond Price Predictor')
 st.markdown("I was looking ta dimonds to buy online and I went on Google and searched up its prices, but I didn’t know what metrics drove those prices. Therefore, I decided to apply some machine learning techniques to figure out what drives the price of a flawless diamond ring!")
 
 st.image("""https://giffiles.alphacoders.com/143/14379.gif""")
-st.markdown("For this project, I used a dataset from pycaret’s dataset folder on GitHub, performed data preprocessing transformations, and built a regression model to predict the price ($326-$18,823) of the diamond using basic diamond measurement metrics. Each diamond in this dataset is given a price. The price of the diamond is determined by 7 input variables:")
+st.markdown("The data we will be using for this project is the Diamonds dataset, which is publicly available via Kaggle. It contains 53940 observations, and 10 features in the dataset. I performed data preprocessing transformations, and built a regression model to predict the price ($326-$18,823) of the diamond using basic diamond measurement metrics. Each diamond in this dataset is given a price. The price of the diamond is determined by 7 input variables:")
 st.write("Carat Weight: 0.2Kg - 5.01Kg  \nCut: Fair, Good, Very Good, Premium, Ideal  \nColor: from J (Worst) to D (Best)  \nClarity: I1 (Worst), SI2, SI1, VS2, VS1, VVS2, VVS1, IF (Best)  \nPolish: ID (Ideal), EX (Excellent), G (Good), VG (Very Good)  \nSymmetry: ID (Ideal), EX (Excellent), G (Good), VG (Very Good)  \nReport: AGSL (American Gem Society Laboratories), GIA (Gemological Institute of America)")
 
 with st.sidebar:
